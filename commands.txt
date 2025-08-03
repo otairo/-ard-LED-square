@@ -1,0 +1,9 @@
+up, left, down, right, *
+18,    8,      52,    5A, 16
+Protocol=NEC Address=0x0 Command=0x18 Raw-Data=0xE718FF00 32 bits LSB first Gap=3276750us Duration=67250us
+Protocol=NEC Address=0x0 Command=0x8 Raw-Data=0xF708FF00 32 bits LSB first Gap=3276750us Duration=67300us
+Protocol=NEC Address=0x0 Command=0x52 Raw-Data=0xAD52FF00 32 bits LSB first Gap=1600600us Duration=67300us
+Protocol=NEC Address=0x0 Command=0x5A Raw-Data=0xA55AFF00 32 bits LSB first Gap=1347700us Duration=67300us
+Protocol=NEC Address=0x0 Command=0x16 Raw-Data=0xE916FF00 32 bits LSB first Gap=1469850us Duration=67300us
+
+uint16_t command = IrReceiver.decodedIRData.command;
